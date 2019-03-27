@@ -4,9 +4,9 @@
 
 Welcome to WASI!
 
-For a quick intro to WASI, including getting started using it, see [the intro document](https://github.com/CraneStation/wasmtime-wasi/blob/wasi/docs/WASI-intro.md).
+For a quick intro to WASI, including getting started using it, see [the intro document](https://github.com/CraneStation/wasmtime/blob/master/docs/WASI-intro.md).
 
-For more documentation, see [the documents guide](https://github.com/CraneStation/wasmtime-wasi/blob/wasi/docs/WASI-documents.md).
+For more documentation, see [the documents guide](https://github.com/CraneStation/wasmtime/blob/master/docs/WASI-documents.md).
 
 Here's a quick guide to the repositories where things live:
 
@@ -17,6 +17,6 @@ To get started using Rust for targeting WASI, see the [release page](https://git
 
 [wasi-sysroot](https://github.com/CraneStation/wasi-sysroot/) - WASI libc sources.
 
-[wasmtime-wasi](https://github.com/CraneStation/wasmtime-wasi/) - Wasmtime WebAssembly runtime, with WASI support, as well as the WASI documentation.
+[wasmtime](https://github.com/CraneStation/wasmtime/) - Wasmtime WebAssembly runtime, with WASI support, as well as the WASI documentation.
 
 Everything here is a work in progress prototype, and not yet stable.
