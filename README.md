@@ -12,12 +12,14 @@ Here's a quick guide to the repositories where things live:
 
 [wasi-sdk](https://github.com/CraneStation/wasi-sdk) - “WASI SDK” packages for C/C++. If you want to try out compiling C/C++, this is a good place to start. "It's just clang."
 
-WASI-enabled Rust - Rust Nightly builds now have built-in WASI support. To get started using Rust for targeting WASI:
+WASI-enabled Rust - Rust 1.35 now has built-in WASI support. To get started using Rust for targeting WASI:
 
 ```
-rustup target add wasm32-wasi --toolchain nightly
-cargo +nightly build --target wasm32-wasi
+rustup target add wasm32-unknown-wasi
+cargo build --target wasm32-unknown-wasi
 ```
+
+(Note: For Rust 1.36 and later, use `wasm32-wasi` instead of `wasm32-unknown-wasi`.)
 
 [wasi-libc](https://github.com/CraneStation/wasi-libc/) - WASI libc sources.
 
