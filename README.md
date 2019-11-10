@@ -2,6 +2,12 @@
 
 ![WASI](WASI.png)
 
+**Warning: this repo is now deprecated and read-only.**
+**The contents of this repo has now been moved into [wasi.dev] crate.**
+**If you have an issue, you'd like to raise, please submit it there.**
+
+[wasi.dev]: https://github.com/CraneStation/wasi.dev
+
 Welcome to WASI!
 
 For a quick intro to WASI, including getting started using it, see [the intro document](https://github.com/CraneStation/wasmtime/blob/master/docs/WASI-intro.md).
